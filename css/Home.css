@@ -1,0 +1,163 @@
+*{
+	margin:0;
+	padding:0;
+	user-select:none;
+}
+
+.header
+{
+	height:140px;
+}
+.header h3
+{
+	float: left;
+	color: blue;
+	padding-top: 25px;
+    padding-bottom: 0px;	
+	position: relative;
+	left: 90px;
+}
+.header img
+{
+	float: left;
+	height: 140px;
+	width: 140px;
+	position: relative;
+	left: 100px;
+}
+.HL i 
+{
+	font-size:25px;
+	color: blue;
+	position: relative;
+	right: 100px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+.HL a
+{
+	font-size:25px;
+	color: blue;
+	position: relative;
+	right: 100px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+.navbar nav.desk
+{
+	width:100%;
+	background: blue;
+	height:50px;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,0.14);
+	position:fixed;
+	top:120px;
+	left:0px;
+}
+nav.desk ul
+{
+	list-style:none;
+	width:85%;
+	height:50px;
+	margin: 0 auto;
+}
+nav.desk ul li
+{
+	width:12%;
+	float:left;
+	text-align:center;	
+	line-height:50px;
+	transition:all 0.5s ease;
+}
+nav.desk ul li:hover
+{
+	background:black;
+}
+nav.desk ul li a
+{
+	color:white;
+	font-size:19px;
+	text-decoration:none;
+}
+.samepost
+{
+	width:850px;
+	height: 350px;
+	background:blue;
+	border:1px dotted black;
+	position:fixed;
+	top:190px;
+	left:130px;
+	font-size:25px;
+}
+.samepost img
+{
+	height: 180px;
+	width: 200px;
+	position:fixed;
+	top:235px;
+	left:150px;
+}
+.samepost h4
+{
+	color:white;
+	position:fixed;
+	top:200px;
+	left:150px;
+}
+.samepost hr
+{
+	position:fixed;
+	top:227px;
+	left:150px;
+	width:800px;
+	
+}
+.readmore a
+{
+	font-size:20px;
+	color:white;
+	position:fixed;
+	top:500px;
+	left:800px;
+}
+.sidebar
+{ 	
+	background:none;
+	margin-top:0px ;
+	padding:0px;
+	height:400px;
+	width:300px;
+	position:fixed;
+	top:190px;
+	left: 1060px;
+}		
+.sameSidebar{}		
+.sameSidebar h2 
+{ 
+	background: blue;
+	border-bottom:2px solid blue;
+	margin-bottom:8px ;
+	padding:10px;
+	color:#fff;
+}
+.sameSidebar p
+{
+	margin-bottom:10px ;							
+}
+.footer 
+{
+	height:50px; 
+	width:1400px;
+	margin-bottom:0px;
+	padding:0px;
+	background:blue;
+	position:fixed;
+	top:570px;
+}
+.footer p
+{
+	color:white;
+	font-size:20px;
+	text-align:center;
+	line-height:50px;
+}
